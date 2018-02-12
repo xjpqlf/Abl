@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">安连宝</string>
+    <string name="username">用户名</string>
+    <string name="pwd">密    码</string>
+    <string name="wifiset">无线设置</string>
+    <string name="interset">网络设置</string>
+    <string name="apn">APN设置</string>
+    <string name="restore">恢复出厂设置</string>
+    <string name="restart">设备重启</string>
+    <string name="exti">退出登录</string>
+    <string name="lopin">登录</string>
+    <string name="login">登录</string>
+    <string name="yzm">验证码</string>
+    <string name="cc">存储</string>
+    <string name="safe">安全</string>
+    <string name="setmanger">设置管理</string>
+    <string name="filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#38B059"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:text="@string/setmanger"/>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_wifi"
+                android:src="@mipmap/wifi"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_wifi"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:text="@string/wifiset"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_inter"
+                android:src="@mipmap/wifi"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_inter"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:text="@string/interset"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_apn"
+                android:src="@mipmap/wifi"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_apn"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:text="@string/apn"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_restore"
+                android:src="@mipmap/wifi"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_restore"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:text="@string/restore"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_restart"
+                android:src="@mipmap/wifi"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_restart"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:text="@string/restart"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_exit"
+                android:src="@mipmap/wifi"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_exit"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:text="@string/exti"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

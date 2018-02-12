@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/num"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:text="序号"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/time"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:text="拦截时间"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/type"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:text="网址类型"/>
+
+        <TextView
+            android:id="@+id/adress"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:text="拦截网址"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv"></ListView>
+
+</LinearLayout>
